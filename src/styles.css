@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 600px;
+  height: 1000px;
+  background-color: white;
+  font-family: "Open Sans", cursive;
+}
+
+.first-page {
+  background-color: black;
+  width: 90%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-container {
+  border-radius: 10px;
+  background-color: white;
+  width: 95%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-image {
+  margin-bottom: 30px;
+}
+.first-image img {
+  width: 300px;
+  height: 300px;
+}
+.first-title-container {
+  padding: 10px;
+  margin-right: 360px;
+}
+.first-title {
+  font-weight: 700;
+  opacity: 0.8;
+}
+.first-description-container {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 13px;
+  opacity: 0.4;
+}
+
+.first-info {
+  margin-top: 30px;
+}
+
+.first-price {
+  margin-right: 314px;
+  font-size: 20px;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+.first-rank {
+  font-size: 13px;
+  margin-right: 5px;
+  color: #f9ca24;
+  opacity: 0.8;
+}
+.first-rank i:last-child {
+  color: #95afc0;
+  opacity: 0.5;
+}
+
+.first-count {
+  font-size: 11px;
+  opacity: 0.3;
+  font-weight: 700;
+}
+
+.second-page {
+  background-color: black;
+  width: 540px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-container {
+  border-radius: 10px;
+  background-color: white;
+  width: 510px;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-background img {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+}
+.second-profile-container img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50px;
+  border: 3px solid white;
+  bottom: 45px;
+  left: 240px;
+}
+
+.second-name-container {
+  margin-top: 60px;
+  font-weight: 700;
+  opacity: 0.8;
+}
+.second-job-container {
+  margin: 5px 0px;
+  font-size: 13px;
+  opacity: 0.5;
+}
+.second-option-container {
+  margin-top: 45px;
+  display: flex;
+}
+.second-option-container .second-follow {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6a75ff;
+  color: #dee1fe;
+  margin-right: 50px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.second-option-container .second-message {
+  width: 120px;
+  height: 40px;
+  background-color: #eaecff;
+  color: #686de0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+}
